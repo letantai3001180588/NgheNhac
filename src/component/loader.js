@@ -3,7 +3,7 @@ import './css/loader.css';
 
 function Loader() {
     return (
-        <div className="lds-ripple" style={{background:"red"}}>
+        <div className="lds-ripple">
             <div></div>
             <div></div>
         </div>

@@ -1,13 +1,14 @@
-import './css/search.css';
 
-function Search() {
+function Search({handleSearch}) {
   return (
-    <>
-    <form className="search__container" >
+    <div className="search__container float-center">
         <h1>Weather Web App</h1>
-        <input type="text"  className="search__input"/>
-    </form>
-</>
+        <div className='row justify-content-center'>
+        <div className='col-xl-3 col-sm-2'>
+          <input className="form-control input-search" type="text" placeholder="City Name" onKeyUp={(e)=>handleSearch(e)}/>
+        </div>
+        </div>
+    </div>
   );
 }
 
