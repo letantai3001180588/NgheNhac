@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/letantai3001180588/Weather-Web/static/css/main.fa695217.css",
-    "main.js": "/letantai3001180588/Weather-Web/static/js/main.36c6de27.js",
-    "static/js/787.28cb0dcd.chunk.js": "/letantai3001180588/Weather-Web/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/letantai3001180588/Weather-Web/index.html",
-    "main.fa695217.css.map": "/letantai3001180588/Weather-Web/static/css/main.fa695217.css.map",
-    "main.36c6de27.js.map": "/letantai3001180588/Weather-Web/static/js/main.36c6de27.js.map",
-    "787.28cb0dcd.chunk.js.map": "/letantai3001180588/Weather-Web/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Weather-Web/static/css/main.fa695217.css",
+    "main.js": "/Weather-Web/static/js/main.0a26f85d.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Weather-Web/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Weather-Web/index.html",
+    "main.fa695217.css.map": "/Weather-Web/static/css/main.fa695217.css.map",
+    "main.0a26f85d.js.map": "/Weather-Web/static/js/main.0a26f85d.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Weather-Web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa695217.css",
-    "static/js/main.36c6de27.js"
+    "static/js/main.0a26f85d.js"
   ]
 }
