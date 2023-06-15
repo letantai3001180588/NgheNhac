@@ -22,15 +22,21 @@ function Weather({listWeather}) {
 
                 <div className='row mt-2'>
                   <div className='col-xl-4 col-4'>
-                    <img alt="h-1" className='icon-sm-weather' src="https://monitor-weather.netlify.app/static/media/pressure.0cd81fbf.svg" />
+                    <div className="rounded-circle box-icon" style={{margin:'auto'}}>
+                      <img alt="h-1"  className='icon-sm-weather' src="https://monitor-weather.netlify.app/static/media/pressure.0cd81fbf.svg" />
+                    </div>
                     <p className='text-bold'>{data.pressure} hPa</p>
                   </div>
                   <div className='col-xl-4 col-4'>
-                    <img alt="h-2" className='icon-sm-weather' src="https://monitor-weather.netlify.app/static/media/humidity.417c71ed.svg" />
+                    <div className="rounded-circle box-icon" style={{margin:'auto'}}>
+                      <img alt="h-2" className='icon-sm-weather' src="https://monitor-weather.netlify.app/static/media/humidity.417c71ed.svg" />
+                    </div>
                     <p className='text-bold'>{data.humidity} %</p>
                   </div>
                   <div className='col-xl-4 col-4'>
-                    <img alt="h-3" className='icon-sm-weather' src="https://monitor-weather.netlify.app/static/media/wind_speed.01467f7c.svg" />
+                    <div className="rounded-circle box-icon" style={{margin:'auto'}}>
+                      <img alt="h-3" className='icon-sm-weather' src="https://monitor-weather.netlify.app/static/media/wind_speed.01467f7c.svg" />
+                    </div>
                     <p className='text-bold'>{data.speed} m/s N</p>
                   </div>
                 </div>
